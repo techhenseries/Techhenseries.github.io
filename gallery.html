@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Mayuge High School through our photo gallery. View images of our campus, facilities, students, events, and school activities.">
+    <meta name="keywords" content="Mayuge High School gallery, photos, campus, facilities, students, events">
+    <title>Photo Gallery - Mayuge High School</title>
+    
+    <link rel="icon" type="image/svg+xml" href="images/school-logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/school-logo.svg" alt="Mayuge High School Logo">
+                <span>Mayuge High School</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="faculty.html" class="nav-link">Faculty</a>
+                <a href="student-life.html" class="nav-link">Student Life</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title animate-on-scroll">Photo Gallery</h1>
+            <nav class="breadcrumb animate-on-scroll">
+                <a href="index.html">Home</a> > <span>Gallery</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <button class="filter-btn" data-filter="students">Students</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Campus Photos -->
+                <div class="gallery-item animate-on-scroll" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="School Main Building">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Main School Building</h3>
+                                <p>Administrative block and classrooms</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="School Entrance">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>School Entrance</h3>
+                                <p>Welcome to Mayuge High School</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facilities Photos -->
+                <div class="gallery-item animate-on-scroll" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Science Laboratory">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Science Laboratory</h3>
+                                <p>Modern equipment for practical learning</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Library">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>School Library</h3>
+                                <p>Extensive collection of books and resources</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Computer Lab">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Computer Laboratory</h3>
+                                <p>Digital learning and programming</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Students Photos -->
+                <div class="gallery-item animate-on-scroll" data-category="students">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Students in Class">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Classroom Learning</h3>
+                                <p>Students engaged in interactive learning</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="students">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Student Presentation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Student Presentation</h3>
+                                <p>Developing public speaking skills</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sports Photos -->
+                <div class="gallery-item animate-on-scroll" data-category="sports">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Football Match">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Football Championship</h3>
+                                <p>Inter-school tournament victory</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="sports">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Athletics Track">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Athletics Track</h3>
+                                <p>Annual sports day competitions</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Photos -->
+                <div class="gallery-item animate-on-scroll" data-category="events">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Graduation Ceremony">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Graduation Ceremony</h3>
+                                <p>Celebrating academic achievements</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="events">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Cultural Festival">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Cultural Festival</h3>
+                                <p>Celebrating diverse traditions</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="events">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Science Fair">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Science Fair</h3>
+                                <p>Student innovation showcase</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Campus Photos -->
+                <div class="gallery-item animate-on-scroll" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="School Gardens">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>School Gardens</h3>
+                                <p>Agriculture and environmental projects</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Dining Hall">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Dining Hall</h3>
+                                <p>Nutritious meals for all students</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Dormitories">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Student Dormitories</h3>
+                                <p>Comfortable boarding facilities</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll" data-category="students">
+                    <div class="gallery-image">
+                        <img src="images/placeholder.svg" alt="Study Group">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Study Groups</h3>
+                                <p>Collaborative learning sessions</p>
+                            </div>
+                            <button class="gallery-zoom" data-image="images/placeholder.svg">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section animate-on-scroll">
+                <button class="btn btn-outline" id="loadMoreGallery">Load More Photos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tour Section -->
+    <section class="virtual-tour">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-text animate-on-scroll">
+                    <h2>Take a Virtual Tour</h2>
+                    <p>Experience our campus from the comfort of your home with our virtual tour. Explore our classrooms, laboratories, sports facilities, and dormitories.</p>
+                    <button class="btn btn-primary" id="startTour">
+                        <i class="fas fa-play"></i>
+                        Start Virtual Tour
+                    </button>
+                </div>
+                <div class="content-image animate-on-scroll">
+                    <img src="images/placeholder.svg" alt="Virtual Tour" class="section-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img class="modal-image" id="modalImage" src="" alt="Gallery Image">
+            <div class="modal-caption" id="modalCaption"></div>
+            <div class="modal-navigation">
+                <button class="modal-nav-btn" id="prevImage">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="modal-nav-btn" id="nextImage">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/school-logo.svg" alt="Mayuge High School">
+                        <span>Mayuge High School</span>
+                    </div>
+                    <p>Excellence in Education, Building Future Leaders</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Student Life</h3>
+                    <ul>
+                        <li><a href="student-life.html">Activities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Mayuge District, Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256-XXX-XXXXXX</p>
+                        <p><i class="fas fa-envelope"></i> info@mayugehighschool.edu.ug</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mayuge High School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

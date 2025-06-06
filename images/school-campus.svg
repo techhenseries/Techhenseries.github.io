@@ -1,0 +1,102 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+    
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A73E8"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+    
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="600" height="250" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <rect y="250" width="600" height="150" fill="url(#grassGradient)"/>
+  
+  <!-- Main school building -->
+  <rect x="150" y="120" width="300" height="180" fill="url(#buildingGradient)"/>
+  
+  <!-- Building roof -->
+  <polygon points="130,120 300,80 470,120" fill="#0D47A1"/>
+  
+  <!-- Clock tower -->
+  <rect x="280" y="60" width="40" height="60" fill="#0D47A1"/>
+  <polygon points="275,60 300,45 325,60" fill="#FF6B00"/>
+  
+  <!-- Windows -->
+  <rect x="170" y="140" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="210" y="140" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="250" y="140" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="325" y="140" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="365" y="140" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="405" y="140" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  
+  <!-- Second floor windows -->
+  <rect x="170" y="190" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="210" y="190" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="250" y="190" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="325" y="190" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="365" y="190" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  <rect x="405" y="190" width="25" height="30" fill="#F8FAFC" stroke="#1A73E8" stroke-width="2"/>
+  
+  <!-- Main entrance -->
+  <rect x="285" y="240" width="30" height="60" fill="#FF6B00"/>
+  <rect x="290" y="245" width="20" height="50" fill="#F8FAFC"/>
+  
+  <!-- School sign -->
+  <rect x="200" y="320" width="200" height="40" fill="#FFFFFF" stroke="#1A73E8" stroke-width="2"/>
+  <text x="300" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A73E8">
+    MAYUGE HIGH SCHOOL
+  </text>
+  
+  <!-- Trees -->
+  <circle cx="80" cy="220" r="30" fill="#059669"/>
+  <rect x="75" y="220" width="10" height="40" fill="#92400E"/>
+  
+  <circle cx="520" cy="210" r="35" fill="#10B981"/>
+  <rect x="515" y="210" width="10" height="45" fill="#92400E"/>
+  
+  <!-- Students walking -->
+  <g transform="translate(100, 280)">
+    <circle cx="0" cy="0" r="8" fill="#FBBF24"/>
+    <rect x="-5" y="0" width="10" height="15" fill="#1A73E8"/>
+    <rect x="-3" y="15" width="6" height="12" fill="#374151"/>
+  </g>
+  
+  <g transform="translate(480, 285)">
+    <circle cx="0" cy="0" r="8" fill="#F87171"/>
+    <rect x="-5" y="0" width="10" height="15" fill="#7C3AED"/>
+    <rect x="-3" y="15" width="6" height="12" fill="#374151"/>
+  </g>
+  
+  <!-- Clouds -->
+  <ellipse cx="100" cy="50" rx="25" ry="15" fill="white" opacity="0.8"/>
+  <ellipse cx="450" cy="40" rx="30" ry="18" fill="white" opacity="0.8"/>
+  
+  <!-- School flag -->
+  <line x1="50" y1="100" x2="50" y2="180" stroke="#374151" stroke-width="3"/>
+  <rect x="50" y="100" width="40" height="25" fill="#FF6B00"/>
+  <rect x="50" y="110" width="40" height="8" fill="#1A73E8"/>
+  
+  <!-- Playground equipment -->
+  <rect x="400" y="320" width="60" height="20" fill="#EF4444"/>
+  <circle cx="430" cy="315" r="5" fill="#EF4444"/>
+  
+  <!-- Pathway -->
+  <rect x="250" y="300" width="100" height="10" fill="#9CA3AF"/>
+  
+  <!-- School motto banner -->
+  <rect x="180" y="370" width="240" height="20" fill="#1A73E8" rx="10"/>
+  <text x="300" y="383" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">
+    Excellence in Education • Character • Innovation
+  </text>
+</svg>

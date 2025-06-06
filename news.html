@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay updated with the latest news, announcements, and events at Mayuge High School. Read about our achievements, upcoming events, and school activities.">
+    <meta name="keywords" content="Mayuge High School news, announcements, events, achievements, activities">
+    <title>News & Announcements - Mayuge High School</title>
+    
+    <link rel="icon" type="image/svg+xml" href="images/school-logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/school-logo.svg" alt="Mayuge High School Logo">
+                <span>Mayuge High School</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="faculty.html" class="nav-link">Faculty</a>
+                <a href="student-life.html" class="nav-link">Student Life</a>
+                <a href="news.html" class="nav-link active">News</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title animate-on-scroll">News & Announcements</h1>
+            <nav class="breadcrumb animate-on-scroll">
+                <a href="index.html">Home</a> > <span>News</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- News Filter -->
+    <section class="news-filter">
+        <div class="container">
+            <div class="filter-buttons animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All News</button>
+                <button class="filter-btn" data-filter="academics">Academics</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="achievements">Achievements</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-news">
+        <div class="container">
+            <article class="featured-article animate-on-scroll">
+                <div class="featured-image">
+                    <img src="images/placeholder.svg" alt="Featured News">
+                    <div class="featured-category">Featured</div>
+                </div>
+                <div class="featured-content">
+                    <div class="article-meta">
+                        <span class="article-date"><i class="fas fa-calendar"></i> December 15, 2024</span>
+                        <span class="article-category academics">Academics</span>
+                    </div>
+                    <h2>Outstanding Performance in National Examinations 2024</h2>
+                    <p>Mayuge High School celebrates exceptional results in the 2024 national examinations, with 95% of students achieving excellent grades across all subjects. This remarkable achievement reflects our commitment to academic excellence and the dedication of our students and faculty.</p>
+                    <a href="#" class="read-more-btn">Read Full Article</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="news-grid-section">
+        <div class="container">
+            <div class="news-grid">
+                <!-- Academic News -->
+                <article class="news-article animate-on-scroll" data-category="academics">
+                    <div class="article-image">
+                        <img src="images/placeholder.svg" alt="Science Laboratory">
+                        <div class="article-category academics">Academics</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">December 10, 2024</span>
+                            <span class="article-author">By Administration</span>
+                        </div>
+                        <h3>New Science Laboratory Officially Opens</h3>
+                        <p>Our state-of-the-art science laboratory is now fully operational, providing students with modern equipment and enhanced learning opportunities in physics, chemistry, and biology.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Sports News -->
+                <article class="news-article animate-on-scroll" data-category="sports">
+                    <div class="article-image">
+                        <img src="images/placeholder.svg" alt="Sports Championship">
+                        <div class="article-category sports">Sports</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">December 5, 2024</span>
+                            <span class="article-author">By Sports Department</span>
+                        </div>
+                        <h3>Football Team Wins Regional Championship</h3>
+                        <p>Our boys' football team has clinched the regional championship title, defeating five other schools in an intense tournament held over the weekend.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Events News -->
+                <article class="news-article animate-on-scroll" data-category="events">
+                    <div class="article-image">
+                        <img src="images/placeholder.svg" alt="Cultural Festival">
+                        <div class="article-category events">Events</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">November 28, 2024</span>
+                            <span class="article-author">By Student Council</span>
+                        </div>
+                        <h3>Annual Cultural Festival Success</h3>
+                        <p>The 2024 Cultural Festival showcased the rich diversity of our student body with traditional dances, music performances, and art exhibitions from various Ugandan cultures.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Achievement News -->
+                <article class="news-article animate-on-scroll" data-category="achievements">
+                    <div class="article-image">
+                        <img src="images/placeholder.svg" alt="Award Ceremony">
+                        <div class="article-category achievements">Achievements</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">November 20, 2024</span>
+                            <span class="article-author">By Administration</span>
+                        </div>
+                        <h3>School Receives Environmental Excellence Award</h3>
+                        <p>Mayuge High School has been recognized for its outstanding environmental conservation efforts and sustainable practices by the District Environmental Committee.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Academic News -->
+                <article class="news-article animate-on-scroll" data-category="academics">
+                    <div class="article-image">
+                        <img src="images/placeholder.svg" alt="Computer Lab">
+                        <div class="article-category academics">Academics</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">November 15, 2024</span>
+                            <span class="article-author">By IT Department</span>
+                        </div>
+                        <h3>Upgraded Computer Laboratory Enhances Digital Learning</h3>
+                        <p>Our computer laboratory has been upgraded with new machines and software, providing students with better access to digital literacy and programming courses.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Sports News -->
+                <article class="news-article animate-on-scroll" data-category="sports">
+                    <div class="article-image">
+                        <img src="images/placeholder.svg" alt="Athletics">
+                        <div class="article-category sports">Sports</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">November 8, 2024</span>
+                            <span class="article-author">By Sports Department</span>
+                        </div>
+                        <h3>Students Excel in District Athletics Championships</h3>
+                        <p>Our athletics team brought home multiple medals from the district championships, with outstanding performances in track and field events.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section animate-on-scroll">
+                <button class="btn btn-outline" id="loadMoreBtn">Load More Articles</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="upcoming-events">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Upcoming Events</h2>
+            <div class="events-timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">
+                        <span class="date-day">22</span>
+                        <span class="date-month">Dec</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>End of Term Examinations</h3>
+                        <p>Final examinations for the third term begin for all classes.</p>
+                        <span class="event-time"><i class="fas fa-clock"></i> 8:00 AM</span>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">
+                        <span class="date-day">25</span>
+                        <span class="date-month">Dec</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Christmas Celebration</h3>
+                        <p>Annual Christmas celebration with carol singing and festivities.</p>
+                        <span class="event-time"><i class="fas fa-clock"></i> 10:00 AM</span>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">
+                        <span class="date-day">15</span>
+                        <span class="date-month">Jan</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>New Term Registration</h3>
+                        <p>Registration and orientation for the new academic term.</p>
+                        <span class="event-time"><i class="fas fa-clock"></i> 9:00 AM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content animate-on-scroll">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to receive the latest news and announcements directly in your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/school-logo.svg" alt="Mayuge High School">
+                        <span>Mayuge High School</span>
+                    </div>
+                    <p>Excellence in Education, Building Future Leaders</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Student Life</h3>
+                    <ul>
+                        <li><a href="student-life.html">Activities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Mayuge District, Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256-XXX-XXXXXX</p>
+                        <p><i class="fas fa-envelope"></i> info@mayugehighschool.edu.ug</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mayuge High School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

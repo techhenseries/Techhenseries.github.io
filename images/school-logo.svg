@@ -1,0 +1,101 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#0052CC"/>
+    </linearGradient>
+    
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF7F00"/>
+    </linearGradient>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <dropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.2)"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer circle (school boundary) -->
+  <circle cx="60" cy="60" r="58" fill="url(#logoGradient)" stroke="white" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Inner circle -->
+  <circle cx="60" cy="60" r="50" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Sun rays (representing enlightenment) -->
+  <g stroke="url(#sunGradient)" stroke-width="2" stroke-linecap="round">
+    <line x1="60" y1="15" x2="60" y2="25"/>
+    <line x1="81.2" y1="21.2" x2="76.06" y2="26.34"/>
+    <line x1="94.7" y1="38.8" x2="89.56" y2="43.94"/>
+    <line x1="98.8" y1="60" x2="88.8" y2="60"/>
+    <line x1="94.7" y1="81.2" x2="89.56" y2="76.06"/>
+    <line x1="81.2" y1="98.8" x2="76.06" y2="93.66"/>
+    <line x1="60" y1="105" x2="60" y2="95"/>
+    <line x1="38.8" y1="98.8" x2="43.94" y2="93.66"/>
+    <line x1="25.3" y1="81.2" x2="30.44" y2="76.06"/>
+    <line x1="21.2" y1="60" x2="31.2" y2="60"/>
+    <line x1="25.3" y1="38.8" x2="30.44" y2="43.94"/>
+    <line x1="38.8" y1="21.2" x2="43.94" y2="26.34"/>
+  </g>
+  
+  <!-- School building silhouette -->
+  <g transform="translate(35, 40)">
+    <!-- Main building -->
+    <rect x="5" y="25" width="40" height="30" fill="white" opacity="0.9"/>
+    <!-- Roof -->
+    <polygon points="0,25 25,15 50,25" fill="white" opacity="0.9"/>
+    <!-- Flag pole -->
+    <line x1="25" y1="15" x2="25" y2="5" stroke="white" stroke-width="1"/>
+    <!-- Flag -->
+    <rect x="25" y="5" width="8" height="5" fill="#FF8C00"/>
+    <!-- Door -->
+    <rect x="22" y="45" width="6" height="10" fill="url(#logoGradient)"/>
+    <!-- Windows -->
+    <rect x="10" y="35" width="4" height="4" fill="url(#logoGradient)"/>
+    <rect x="36" y="35" width="4" height="4" fill="url(#logoGradient)"/>
+  </g>
+  
+  <!-- Open book (representing knowledge) -->
+  <g transform="translate(40, 65)">
+    <path d="M 0 0 Q 10 -5 20 0 Q 30 -5 40 0 L 40 15 Q 30 10 20 15 Q 10 10 0 15 Z" 
+          fill="url(#bookGradient)" opacity="0.9"/>
+    <!-- Book pages lines -->
+    <line x1="5" y1="5" x2="15" y2="3" stroke="white" stroke-width="0.5"/>
+    <line x1="5" y1="8" x2="15" y2="6" stroke="white" stroke-width="0.5"/>
+    <line x1="25" y1="3" x2="35" y2="5" stroke="white" stroke-width="0.5"/>
+    <line x1="25" y1="6" x2="35" y2="8" stroke="white" stroke-width="0.5"/>
+    <!-- Book spine -->
+    <line x1="20" y1="0" x2="20" y2="15" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Graduation cap -->
+  <g transform="translate(45, 30)">
+    <polygon points="0,8 15,5 30,8 15,11" fill="white" opacity="0.9"/>
+    <rect x="14" y="8" width="2" height="8" fill="white" opacity="0.9"/>
+    <circle cx="16" cy="10" r="1" fill="#FF8C00"/>
+  </g>
+  
+  <!-- School initials "MHS" -->
+  <g transform="translate(60, 95)" text-anchor="middle" fill="white" font-family="serif" font-weight="bold" font-size="8">
+    <text x="0" y="0">MHS</text>
+  </g>
+  
+  <!-- Excellence stars -->
+  <g fill="#FF8C00" opacity="0.8">
+    <polygon points="30,20 32,26 38,26 33,30 35,36 30,32 25,36 27,30 22,26 28,26" transform="scale(0.3)"/>
+    <polygon points="90,20 92,26 98,26 93,30 95,36 90,32 85,36 87,30 82,26 88,26" transform="scale(0.3)"/>
+    <polygon points="90,85 92,91 98,91 93,95 95,101 90,97 85,101 87,95 82,91 88,91" transform="scale(0.3)"/>
+  </g>
+  
+  <!-- School motto banner -->
+  <g transform="translate(60, 105)">
+    <rect x="-35" y="-3" width="70" height="6" fill="white" opacity="0.1" rx="3"/>
+    <text x="0" y="1" text-anchor="middle" fill="white" font-family="sans-serif" font-size="4" font-weight="500">
+      EXCELLENCE IN EDUCATION
+    </text>
+  </g>
+</svg>
